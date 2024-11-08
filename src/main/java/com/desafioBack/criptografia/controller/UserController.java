@@ -20,7 +20,7 @@ import com.desafioBack.criptografia.service.EncryptionService;
 import com.desafioBack.criptografia.service.UserService;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/users")
 public class UserController {
 
 	@Autowired
